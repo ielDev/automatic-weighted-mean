@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-color: chocolate;
+}
+
+.mainCntr{
+    width: 100vw;
+    height: 100vh;
+}
+
+.Title{
+    margin: 2rem;
+    text-align: center;
+}
+
+h1{
+    border: 0px;
+    margin: 0%;
+
+}
+
+.uiCntr{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs{
+
+    width: 100vw;
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3px;
+    
+}
+
+input{
+    width: 3rem;
+    height: 3rem;
+    font-size: xx-large;
+}
+
+.output{
+    width: 100vw;
+    text-align: center;
+}
